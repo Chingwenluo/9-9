@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
     @IBOutlet weak var shownumber: UILabel!
     @IBAction func count(_ sender: UISlider) {
        
