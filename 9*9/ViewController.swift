@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var shownumber: UILabel!
     @IBAction func count(_ sender: UISlider) {
        
-      
         
         sender.value = sender.value.rounded()
         let number = Int(sender.value)
